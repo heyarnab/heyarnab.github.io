@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: #ffffffa0;
-    margin: 0;
+    margin: 0;;
     height: 100vh;
     display: flex;
     font-family: 'JetBrains Mono', monospace;
@@ -19,16 +19,18 @@ body {
 pre{
     color: #a600ff;
     margin-right: 70px;
-    margin-top: 100px;
+    margin-top: 220px;
+    margin-bottom: -15px;
+    font-size: 0.65rem;
 }
 
 .box {
     border: 0.1px solid #b300ff50;
-    padding: 5px;
+    padding-left: 3px;
     display: inline-block;
     text-align: left;
     height: auto;
-    width: 350px
+    width: 180px;
 }
 
 .box:hover {
@@ -55,10 +57,6 @@ a:hover{
     color: #a600ff;
 }
 
-footer{
-    color: #ffffff5b; 
-    margin-top: 200px;
-}
 
 .tui{
     color: #ffffff5b
@@ -74,3 +72,6 @@ a.gb:hover{
     text-decoration: none;
 }
 
+p{
+    margin-top: -20px;
+}
