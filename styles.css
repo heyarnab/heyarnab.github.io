@@ -47,10 +47,11 @@ body{
 
 
 .header{
-    font-family: Great Vibes, cursive;
-    font-size: 22px;
+    font-family: JetBrains Mono, monospace;
+    font-size: 16px;
     font-weight: bold;
     color: #092439;
+    
 
 }
 
