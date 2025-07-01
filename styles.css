@@ -1,21 +1,36 @@
 body{
     background: #092439;
     color: #5db8fe98;
-    align-items: center;
     display: flex;
     font-family: Roboto Mono, sans-serif;
     justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
 }
 
 .page{
-    align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     font-family: Roboto Mono, sans-serif;
     font-size: 12px;
-    width: 50%;
-    height: 100%;
+    width: 25%;
+    height: 100vh;
+    opacity: 0;
+    margin-top: -30px;
+
+    animation: fadeInUp 0.8s ease-out forwards;
+
+
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+ 
+  }
 }
 
 .box {
@@ -23,11 +38,12 @@ body{
     justify-content: center;
     display: flex;
     background: #5db3fe98;
-    width: 50%;
+    width: 100%;
     height: 20px;
     border: 2px solid ;
     color: #092439;
     align-self: flex-start;
+    
     
 }
 
@@ -47,8 +63,10 @@ body{
 
 .bodytext{
     align-self: flex-start;
-    font-size: 13px;
+    font-size: 14px;
     color: #5db8fe98;
+    line-height: 1.8;
+    margin: 0;
 
 }
 
@@ -61,13 +79,32 @@ span{
     margin: 5px;
     align-self: flex-start;
     color: #5db8fe98;
+    font-size: 14px;
+    
 
+}
+.link:hover{
+    text-decoration: none;
+    color: cyan;
 }
 
 img{
-    width: 50%;
+    width: 100%;
     height: auto;
     position: relative;
     top: 15px;
     align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+
+    body{
+        margin: 20px;
+    }
+ 
+  .page{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
 }
