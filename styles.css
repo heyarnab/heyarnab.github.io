@@ -34,7 +34,6 @@ body{
 }
 .container a:hover{
     text-decoration: underline;
-    text-shadow: #BBE1FA 0 0 10px;
 }
 
 .overlay {
@@ -45,6 +44,5 @@ body{
     height: 200%;
     backdrop-filter: blur(4px)
 }
-
 
 
