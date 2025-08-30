@@ -1,7 +1,7 @@
 body{
     background: #000000;
     color: #BBE1FA;
-    font-family: 'Vend Sans';
+    font-family: 'Vend Sans', sans-serif;
 }
 
 
@@ -45,5 +45,6 @@ body{
     height: 200%;
     backdrop-filter: blur(4px)
 }
+
 
 
