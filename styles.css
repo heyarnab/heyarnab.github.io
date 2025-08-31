@@ -17,6 +17,7 @@ body{
 .container p{
     font-size: 1.7rem;
     color: #BBE1FA;
+    cursor: default;
 }
 .container a{   
     display: block;
@@ -44,5 +45,6 @@ body{
     height: 200%;
     backdrop-filter: blur(4px)
 }
+
 
 
